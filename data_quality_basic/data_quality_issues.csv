@@ -1,0 +1,7 @@
+timestamp,level,file,path,column,issue,indices
+"2024-05-26 08:45:49,498",INFO,example_data.csv,/workspaces/asset_information/data_quality_basic/example_data.csv,name,"No missing values found. (Passed: 5, Failed: 0)",
+"2024-05-26 08:45:49,498",INFO,example_data.csv,/workspaces/asset_information/data_quality_basic/example_data.csv,age,"Missing Values: 1 (Passed: 4, Failed: 1)",2
+"2024-05-26 08:45:49,499",INFO,example_data.csv,/workspaces/asset_information/data_quality_basic/example_data.csv,gender,"No missing values found. (Passed: 5, Failed: 0)",
+"2024-05-26 08:45:49,499",INFO,example_data.csv,/workspaces/asset_information/data_quality_basic/example_data.csv,email,"No missing values found. (Passed: 5, Failed: 0)",
+"2024-05-26 08:45:49,500",INFO,example_data.csv,/workspaces/asset_information/data_quality_basic/example_data.csv,All Columns,"No duplicate rows found. (Passed: 5, Failed: 0)",
+"2024-05-26 08:45:49,501",INFO,example_data.csv,/workspaces/asset_information/data_quality_basic/example_data.csv,gender,"No gender inconsistencies found. (Passed: 5, Failed: 0)",
