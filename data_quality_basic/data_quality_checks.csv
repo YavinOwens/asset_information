@@ -1,0 +1,4 @@
+Check,Run
+check_missing_values,Yes
+check_duplicates,Yes
+check_inconsistencies_gender,Yes
