@@ -1,15 +1,16 @@
 import csv
 import re
+import pandas as pd
 
 def parse_log_line(line):
     """Parse a single line of the log file and return a dictionary with the extracted information."""
     log_pattern = re.compile(
-        r'Ref: (?P<ref>\d+), File: (?P<file>.*?), Path: (?P<path>.*?), Column: (?P<column>.*?), '
+        r'(?P<timestamp>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}) - '
         r'(?P<level>\w+) - '
         r'File: (?P<file>.*?), Path: (?P<path>.*?), Column: (?P<column>.*?), '
         r'Issue: (?P<issue>.*?), Indices: (?P<indices>.*)'
     )
-    match = log_pattern.search(line)
+    match = log_pattern.match(line)
     if match:
         return match.groupdict()
     return None

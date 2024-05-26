@@ -1,0 +1,11 @@
+2024-05-26 09:06:35,832 - INFO - Starting data quality checks.
+2024-05-26 09:06:35,835 - DEBUG - Checking for missing values.
+2024-05-26 09:06:35,838 - INFO - Ref: 1, File: example_data.csv, Path: /workspaces/asset_information/data_quality_basic/example_data.csv, Column: name, Issue: No missing values found. (Passed: 5, Failed: 0), Indices: 
+2024-05-26 09:06:35,838 - INFO - Ref: 2, File: example_data.csv, Path: /workspaces/asset_information/data_quality_basic/example_data.csv, Column: age, Issue: Missing Values: 1 (Passed: 4, Failed: 1), Indices: 2
+2024-05-26 09:06:35,838 - INFO - Ref: 3, File: example_data.csv, Path: /workspaces/asset_information/data_quality_basic/example_data.csv, Column: gender, Issue: No missing values found. (Passed: 5, Failed: 0), Indices: 
+2024-05-26 09:06:35,838 - INFO - Ref: 4, File: example_data.csv, Path: /workspaces/asset_information/data_quality_basic/example_data.csv, Column: email, Issue: No missing values found. (Passed: 5, Failed: 0), Indices: 
+2024-05-26 09:06:35,838 - DEBUG - Checking for duplicate rows.
+2024-05-26 09:06:35,839 - INFO - Ref: 5, File: example_data.csv, Path: /workspaces/asset_information/data_quality_basic/example_data.csv, Column: All Columns, Issue: No duplicate rows found. (Passed: 5, Failed: 0), Indices: 
+2024-05-26 09:06:35,839 - DEBUG - Checking for inconsistencies in column 'gender'.
+2024-05-26 09:06:35,840 - INFO - Ref: 6, File: example_data.csv, Path: /workspaces/asset_information/data_quality_basic/example_data.csv, Column: gender, Issue: No gender inconsistencies found. (Passed: 5, Failed: 0), Indices: 
+2024-05-26 09:06:35,840 - INFO - Data quality checks completed.
